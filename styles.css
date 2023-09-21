@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #efe3e3;
+    background-color: #fde2ee;
     margin: 0;
     padding: 0;
 }
@@ -54,7 +54,7 @@ h1 {
 
 .inbox {
     padding: 20px;
-    border: 1px solid #ddd;
+    border: none;
     border-radius: 5px;
 }
 
@@ -93,4 +93,17 @@ h1 {
 
 .about-email {
     margin: 10px;
+}
+
+.mailboxes {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: salmon;
+    background-color: #ffd3e7;
+}
+
+.navbar-brand {
+    color: rgb(251, 103, 127);
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
