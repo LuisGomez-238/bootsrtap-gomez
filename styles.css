@@ -27,9 +27,7 @@ h1 {
 .email {
     border-bottom: 1px solid #ddd;
     padding: 10px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  
 }
 
 .email .sender {
@@ -74,6 +72,11 @@ h1 {
     padding: 20px;
 
 }
+.left-screen {
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+}
 
 .email-details {
     padding: 20px;
@@ -106,4 +109,13 @@ h1 {
     color: rgb(251, 103, 127);
     font-weight: 800;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-primary {
+    background-color: rgb(202, 146, 255);
+}
+.reply-button {
+    background-color: rgb(138, 214, 138);
+}
+.btn-outline-success {
+    color: rgb(138, 214, 138);
 }
