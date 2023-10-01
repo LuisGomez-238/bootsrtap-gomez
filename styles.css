@@ -1,106 +1,29 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #fde2ee;
-    margin: 0;
-    padding: 0;
-}
-.right-screen .buttons {
-    text-align: left;
-    margin-bottom: 20px;
+ 
 }
 
-.right-screen .btn {
-    margin-left: 10px;
-}
-.inbox {
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    
-}
+
 h1 {
     background-color: rgb(251, 103, 127);
     color: white;
     text-align: center;
 }
 
-.email {
-    border-bottom: 1px solid #ddd;
-    padding: 10px 0;
-  
-}
 
 .email .sender {
     font-weight: bold;
 }
 
-.email-details {
-    padding: 20px;
-}
 
-.email-details h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.email-content {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 20px;
-    min-height: 200px;
-}
-
-.inbox {
-    padding: 20px;
-    border: none;
-    border-radius: 5px;
-}
-
-.email {
-    border-bottom: 1px solid #ddd;
-    padding: 10px 0;
-}
 
 .email .sender {
     font-weight: bold;
 }
 
-.right-screen {
-    width: 50%;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-
-}
-.left-screen {
-    padding: 2px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.email-details {
-    padding: 20px;
-}
-
-.email-details h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.email-content {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 20px;
-    min-height: 200px;
-}
-
-.about-email {
-    margin: 10px;
-}
 
 .mailboxes {
-    text-decoration: underline;
-    font-weight: bolder;
     color: salmon;
     background-color: #ffd3e7;
 }
@@ -118,4 +41,42 @@ h1 {
 }
 .btn-outline-success {
     color: rgb(138, 214, 138);
+}
+.mailboxes-toggler {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(251, 103, 127);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mailboxes-link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(251, 103, 127);
+    font-weight: bold;
+
+}
+.mailboxes-side {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(251, 103, 127);
+    font-weight: bold;
+}
+.mailboxes-side:hover {
+    color: rgb(255, 38, 74);
+    font-weight: bolder;
 }
