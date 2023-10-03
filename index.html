@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,162 +8,169 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-                <header>
-                    <nav class="navbar bg-body-tertiary">
-                    <div class="container-fluid">
-                      <a class="navbar-brand">L-MAIL</a>
-                      <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success " type="submit">Search</button>
-                      </form>
-                    </div>
-                  </nav>
-                    <div class="d-flex flex-column col-lg-3 col-md-12 col-sm-12 col-xs-12 inbox">
-                    <h1>Inbox</h1>
-                    </div>
-                </header>
-             <div class="d-flex flex-sm-column flex-xs-column flex-lg-row flex-md-row container-fluid">
-                <div class="d-flex flex-column col-md-1 col-lg-1 d-sm-none d-md-block container">
-                    <div class="btn mailboxes-side">Inbox</div>
-                    <div class="btn mailboxes-side">Sent</div>
-                    <div class="btn mailboxes-side">Spam</div>
-                    <div class="btn mailboxes-side">Trash</div>
-                    <div class="btn mailboxes-side">Saved</div>
-                </div>
-                <div class="d-none d-sm-block d-md-none col-sm-12  container">
-                    <button
-                     class="mailboxes-toggler" 
-                     type="button" 
-                     data-bs-toggle="collapse" 
-                     data-bs-target="#mailboxes">
-                     Mailboxes
-                    </button>
-                    <div class="collapse mailboxes-collapse" id="mailboxes">
-                        <ul class="mailboxes ms-auto">
-                            <li class="mailboxes-item">
-                                <a href="#Inbox" class="mailboxes-link">Inbox</a>
-                            </li>
-                            <li class="mailboxes-item">
-                                <a href="#Sent" class="mailboxes-link">Sent</a>
-                            </li>
-                            <li class="mailboxes-item">
-                                <a href="#Spam" class="mailboxes-link">Spam</a>
-                            </li>
-                            <li class="mailboxes-item">
-                                <a href="#Trash" class="mailboxes-link">Trash</a>
-                            </li>
-                            <li class="mailboxes-item">
-                                <a href="#Saved" class="mailboxes-link">Saved</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="d-flex flex-column col-md-3 col-xs-12 left-screen">
-                    <div class="email">
-                        <div class="sender">Micheal Scott</div>
-                        <div class="subject">Really need that conference room meeting</div>
-                        <div class="date">20 minutes ago</div>
-                    </div>
-                    <div class="email">
-                        <div class="sender">Micheal Scott</div>
-                        <div class="subject">Really need that conference room meeting</div>
-                        <div class="date">20 minutes ago</div>
-                    </div>
-                    <div class="email">
-                        <div class="sender">Micheal Scott</div>
-                        <div class="subject">Really need that conference room meeting</div>
-                        <div class="date">20 minutes ago</div>
-                    </div>
-                    <div class="email">
-                        <div class="sender">Micheal Scott</div>
-                        <div class="subject">Really need that conference room meeting</div>
-                        <div class="date">20 minutes ago</div>
-                    </div> <div class="email">
-                        <div class="sender">Micheal Scott</div>
-                        <div class="subject">Really need that conference room meeting</div>
-                        <div class="date">20 minutes ago</div>
-                    </div>
-                    <div class="email">
-                        <div class="sender">Micheal Scott</div>
-                        <div class="subject">Really need that conference room meeting</div>
-                        <div class="date">20 minutes ago</div>
-                    </div>
-                    <div class="email">
-                        <div class="sender">Micheal Scott</div>
-                        <div class="subject">Really need that conference room meeting</div>
-                        <div class="date">20 minutes ago</div>
-                    </div>
-                    <div class="email">
-                        <div class="sender">Micheal Scott</div>
-                        <div class="subject">Really need that conference room meeting</div>
-                        <div class="date">20 minutes ago</div>
-                    </div>
-                    <div class="email">
-                        <div class="sender">Micheal Scott</div>
-                        <div class="subject">Really need that conference room meeting</div>
-                        <div class="date">20 minutes ago</div>
-                    </div>
-                    <div class="email">
-                        <div class="sender">Micheal Scott</div>
-                        <div class="subject">Really need that conference room meeting</div>
-                        <div class="date">20 minutes ago</div>
-                    </div>
-                    <div class="email">
-                        <div class="sender">Micheal Scott</div>
-                        <div class="subject">Really need that conference room meeting</div>
-                        <div class="date">20 minutes ago</div>
-                    </div>
-                    <div class="email">
-                        <div class="sender">Micheal Scott</div>
-                        <div class="subject">Really need that conference room meeting</div>
-                        <div class="date">20 minutes ago</div>
-                    </div>
-                </div>
-                     <div class="d-flex flex-column col-lg-9 col-md-9 col-xs-12 bg-light right-screen">
-                    <button type="button" class="btn btn-lg btn-primary">
-                    Compose New</button>
-                    <button class="btn btn-success reply-button">Reply</button>
-                    <h2>Email Subject</h2>
-                        <div class="sender">Micheal Scott</div>
-                        <div class="date">20 minutes ago</div>
-                    <p>Hey Luis,
-                        Hope you're having a better day than Stanley on Pretzel Day! 🥨
-                        <br></br>
-                        I've got some super-duper exciting news that's going to make your socks go up and down faster than Dwight's karate kicks! 🥋
-                        <br></br>
-                        We're having a conference room meeting, and it's going to be more epic than a Dundie Awards ceremony hosted by yours truly. 🏆
-                        <br></br>
-                        I know what you're thinking: "Why should I come to this meeting, Michael?" Well, let me tell you, Luis. It's going to be as essential as the "That's what she said" jokes in our daily routine! 🙊
-                        <br></br>
-                        Here's the lineup:
-                        <br></br>
-                        Me, Michael Scott, your fearless leader and the world's best boss, of course!
-                        Jim Halpert, our resident prankster and Dwight's arch-nemesis.
-                        Dwight Schrute, our Assistant Regional Manager and beet enthusiast.
-                        Pam Beesly, our talented artist and the one who caught all those pranks on camera.
-                        Kevin Malone, our lovable accountant with a penchant for spilling chili.
-                        Stanley Hudson, the master of deadpan humor and crossword puzzles.
-                        Angela Martin, our cat-loving, super-strict head of the Party Planning Committee.
-                        Creed Bratton, the mysterious and slightly offbeat quality assurance director.
-                        Oscar Martinez, our smartest accountant and the only one who understands my "That's what she said" jokes on an intellectual level.
-                        You're not going to want to miss this, Luis. We've got something big to discuss, and it's not just the latest batch of M&M's from the vending machine. 🍫
-                        <br></br>
-                        So, grab your notepad and pen, make sure your computer is fully charged, and meet us in the conference room faster than Kelly can switch her Starbucks order! ☕
-                        <br></br>
-                        Date: Tomorrow, 2:00 PM
-                        Location: Conference Room
-                        Agenda: Top-secret stuff (just kidding, it's not really top-secret, but it sounds cool, right?)
-                        <br></br>
-                        If you don't show up, Luis, you'll be missing out on the funniest conference room meeting this side of Scranton. And trust me, that's saying something!
-                        <br></br>
-                        See you there, champ!
-                        <br></br>
-                        Best,
-                        Michael Scott</p>
-                     </div>
-                </div>
+    <header>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand">L-MAIL</a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success " type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div class="d-flex flex-column col-lg-3 col-md-12 col-sm-12 col-xs-12 inbox">
+            <h1>Inbox</h1>
+        </div>
+    </header>
+    <div class="d-flex flex-sm-column flex-xs-column flex-lg-row flex-md-row container-fluid">
+        <div class="d-flex flex-column col-md-1 col-lg-1 d-sm-none d-md-block container">
+            <div class="btn mailboxes-side">Inbox</div>
+            <div class="btn mailboxes-side">Sent</div>
+            <div class="btn mailboxes-side">Spam</div>
+            <div class="btn mailboxes-side">Trash</div>
+            <div class="btn mailboxes-side">Saved</div>
+        </div>
+        <div class="d-none d-sm-block d-md-none col-sm-12 col-xs-12 container">
+            <button class="mailboxes-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mailboxes">
+                Mailboxes
+            </button>
+            <div class="collapse mailboxes-collapse" id="mailboxes">
+                <ul class="mailboxes ms-auto">
+                    <li class="mailboxes-item">
+                        <a href="#Inbox" class="mailboxes-link">Inbox</a>
+                    </li>
+                    <li class="mailboxes-item">
+                        <a href="#Sent" class="mailboxes-link">Sent</a>
+                    </li>
+                    <li class="mailboxes-item">
+                        <a href="#Spam" class="mailboxes-link">Spam</a>
+                    </li>
+                    <li class="mailboxes-item">
+                        <a href="#Trash" class="mailboxes-link">Trash</a>
+                    </li>
+                    <li class="mailboxes-item">
+                        <a href="#Saved" class="mailboxes-link">Saved</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="d-flex flex-column col-md-3 col-xs-12 left-screen">
+            <div class="email">
+                <div class="sender">Micheal Scott</div>
+                <div class="subject">Really need that conference room meeting</div>
+                <div class="date">20 minutes ago</div>
+            </div>
+            <div class="email">
+                <div class="sender">Micheal Scott</div>
+                <div class="subject">Really need that conference room meeting</div>
+                <div class="date">20 minutes ago</div>
+            </div>
+            <div class="email">
+                <div class="sender">Micheal Scott</div>
+                <div class="subject">Really need that conference room meeting</div>
+                <div class="date">20 minutes ago</div>
+            </div>
+            <div class="email">
+                <div class="sender">Micheal Scott</div>
+                <div class="subject">Really need that conference room meeting</div>
+                <div class="date">20 minutes ago</div>
+            </div>
+            <div class="email">
+                <div class="sender">Micheal Scott</div>
+                <div class="subject">Really need that conference room meeting</div>
+                <div class="date">20 minutes ago</div>
+            </div>
+            <div class="email">
+                <div class="sender">Micheal Scott</div>
+                <div class="subject">Really need that conference room meeting</div>
+                <div class="date">20 minutes ago</div>
+            </div>
+            <div class="email">
+                <div class="sender">Micheal Scott</div>
+                <div class="subject">Really need that conference room meeting</div>
+                <div class="date">20 minutes ago</div>
+            </div>
+            <div class="email">
+                <div class="sender">Micheal Scott</div>
+                <div class="subject">Really need that conference room meeting</div>
+                <div class="date">20 minutes ago</div>
+            </div>
+            <div class="email">
+                <div class="sender">Micheal Scott</div>
+                <div class="subject">Really need that conference room meeting</div>
+                <div class="date">20 minutes ago</div>
+            </div>
+            <div class="email">
+                <div class="sender">Micheal Scott</div>
+                <div class="subject">Really need that conference room meeting</div>
+                <div class="date">20 minutes ago</div>
+            </div>
+            <div class="email">
+                <div class="sender">Micheal Scott</div>
+                <div class="subject">Really need that conference room meeting</div>
+                <div class="date">20 minutes ago</div>
+            </div>
+            <div class="email">
+                <div class="sender">Micheal Scott</div>
+                <div class="subject">Really need that conference room meeting</div>
+                <div class="date">20 minutes ago</div>
+            </div>
+        </div>
+        <div class="card d-flex flex-column col-lg-9 col-md-9 col-xs-12 bg-light right-screen">
+            <button type="button" class="btn btn-lg btn-primary">
+                Compose New</button>
+            <button class="btn btn-success reply-button">Reply</button>
+            <h2>Email Subject</h2>
+            <div class="sender">Micheal Scott</div>
+            <div class="date">20 minutes ago</div>
+            <p>Hey Luis,
+                Hope you're having a better day than Stanley on Pretzel Day! 🥨
+                <br></br>
+                I've got some super-duper exciting news that's going to make your socks go up and down faster than
+                Dwight's karate kicks! 🥋
+                <br></br>
+                We're having a conference room meeting, and it's going to be more epic than a Dundie Awards ceremony
+                hosted by yours truly. 🏆
+                <br></br>
+                I know what you're thinking: "Why should I come to this meeting, Michael?" Well, let me tell you, Luis.
+                It's going to be as essential as the "That's what she said" jokes in our daily routine! 🙊
+                <br></br>
+                Here's the lineup:
+                <br></br>
+                Me, Michael Scott, your fearless leader and the world's best boss, of course!
+                Jim Halpert, our resident prankster and Dwight's arch-nemesis.
+                Dwight Schrute, our Assistant Regional Manager and beet enthusiast.
+                Pam Beesly, our talented artist and the one who caught all those pranks on camera.
+                Kevin Malone, our lovable accountant with a penchant for spilling chili.
+                Stanley Hudson, the master of deadpan humor and crossword puzzles.
+                Angela Martin, our cat-loving, super-strict head of the Party Planning Committee.
+                Creed Bratton, the mysterious and slightly offbeat quality assurance director.
+                Oscar Martinez, our smartest accountant and the only one who understands my "That's what she said" jokes
+                on an intellectual level.
+                You're not going to want to miss this, Luis. We've got something big to discuss, and it's not just the
+                latest batch of M&M's from the vending machine. 🍫
+                <br></br>
+                So, grab your notepad and pen, make sure your computer is fully charged, and meet us in the conference
+                room faster than Kelly can switch her Starbucks order! ☕
+                <br></br>
+                Date: Tomorrow, 2:00 PM
+                Location: Conference Room
+                Agenda: Top-secret stuff (just kidding, it's not really top-secret, but it sounds cool, right?)
+                <br></br>
+                If you don't show up, Luis, you'll be missing out on the funniest conference room meeting this side of
+                Scranton. And trust me, that's saying something!
+                <br></br>
+                See you there, champ!
+                <br></br>
+                Best,
+                Michael Scott
+            </p>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
